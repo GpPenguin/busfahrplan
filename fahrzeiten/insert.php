@@ -34,7 +34,7 @@ header('location:.');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Einfügen</title>
-    <link rel="shylesheet" href="../views/mycss.css">
+    <link rel="shylesheet" href="../view/bootstrap.min.css">
 </head>
 <body>
     <form action="" method="POST">
