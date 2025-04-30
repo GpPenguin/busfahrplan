@@ -14,9 +14,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Ab hier beginnt der HTML-Teil, um die Datensätze in einer Tabelle anzuzeigen
 ?>
-html
-Kopieren
-Bearbeiten
+
 <!DOCTYPE html> <!-- Definiert den Dokumenttyp als HTML5 -->
 <html lang="en"> <!-- Sprache der Webseite ist Englisch -->
 <head>
