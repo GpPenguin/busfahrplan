@@ -58,3 +58,33 @@ if(isset($_GET['id'])){
 }
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+
+</head>
+<body>
+    <form action="" method="POST">
+        
+        <label for="haltestelle_id">haltestellen_id:</label>
+        <input type="text" id="haltestelle_id" name="haltestelle_id" >
+    <br><br>
+        <label for=fahrplan_id>fahrplan_id:</label>
+        <input type="text" id=fahrplan_id name=fahrplan_id>
+    <br><br>
+   <label for=ankunftzeit>ankunftszeit:</label>
+        <input type="time" id=ankunftzeit name=ankunftzeit>
+    <br><br>
+    <label for=abfahrzeit>abfahrzeit:</label>
+        <input type="time" id=abfahrzeit name=abfahrzeit>
+    <br><br>
+
+        <button type="submit">Updaten</button>
+    </form>
+</body> 
+</html>
